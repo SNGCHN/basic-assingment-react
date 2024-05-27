@@ -40,12 +40,12 @@ const App = () => {
     <main style={styles.main}>
       <h1>예병수 튜터님 어차피 안보심</h1>
       <section style={styles.section}>
-        <button style={styles.button} onClick={addCount}>
-          +
-        </button>
-        <span style={styles.count}>{count}</span>
         <button style={styles.button} onClick={subtractCount}>
           -
+        </button>
+        <span style={styles.count}>{count}</span>
+        <button style={styles.button} onClick={addCount}>
+          +
         </button>
       </section>
       <section style={styles.section}>
